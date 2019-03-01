@@ -47,6 +47,7 @@ Result:
 ### Of object
 Enables extraction of requested properties from the object and assigning them to variables of the same name as properties.
 
+```
 function printName({fname,lname}){
     console.log('hi',fname,lname)    
 }
@@ -56,6 +57,6 @@ const person = {
     city: 'blore'
 }
 printName(person);
-
+```
 Result:
 *hi sam kumar*
